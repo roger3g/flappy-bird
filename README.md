@@ -29,17 +29,21 @@
 - [x] [dotenv](https://www.npmjs.com/package/dotenv)
 - [x] [nunjucks](https://mozilla.github.io/nunjucks/)
 
+**Note**: These technologies were used to deploy to heroku, they do **not reflect** in the direct development of the game.
+
 ## 💻 Project
 
 Flappy bird clone with pure JavaScript
 
 ## 🔖 Layout
 
-You can view the layout of this project by clicking [here](https://flappy-roger.herokuapp.com/)
+You can access the game **demo** [here](https://flappy-roger.herokuapp.com/)
+**Note**: The game is in development.
 
 ## 💡 Implementation ideas
 
 - [ ] Refactor.
+- [ ] End the game
 
 ## 📂 Directory structure
 
