@@ -35,7 +35,7 @@ Flappy bird clone with pure JavaScript
 
 ## 🔖 Layout
 
-You can view the layout of this project by clicking [here]()
+You can view the layout of this project by clicking [here](https://flappy-roger.herokuapp.com/)
 
 ## 💡 Implementation ideas
 
