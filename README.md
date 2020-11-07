@@ -3,6 +3,7 @@
 </h1>
 
 <p align="center">
+  <img src="https://img.shields.io/static/v1?label=author&message=roger3g&color=FFD700&labelColor=FFD700" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=languages&message=3&color=fd951f&labelColor=130f0d" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=fd951f&labelColor=130f0d" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=version&message=0.0.5&color=fd951f&labelColor=130f0d" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=platform&message=web&color=fd951f&labelColor=130f0d" style="display: inline;">
 </p>
 
 <div align="center">
@@ -27,7 +28,6 @@
 - [x] [Nodemon](https://nodemon.io/)
 - [x] [dotenv](https://www.npmjs.com/package/dotenv)
 - [x] [nunjucks](https://mozilla.github.io/nunjucks/)
-- [x] [sqlite-async](https://www.npmjs.com/package/sqlite-async)
 
 ## 💻 Project
 
