@@ -21,19 +21,25 @@
 - [How to contribute](#-how-to-contribute)
 - [License](#-license)
 
-## 🕹 Technology
+## 🛠 Technology
 
-- [x] [Node.js](https://nodejs.org/en/)
-- [x] [Express.js](https://expressjs.com/)
-- [x] [Nodemon](https://nodemon.io/)
-- [x] [dotenv](https://www.npmjs.com/package/dotenv)
-- [x] [nunjucks](https://mozilla.github.io/nunjucks/)
+- **Front-End**
+  - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+  - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+  - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/Javascript)
 
-**Note**: These technologies were used to deploy to heroku, they do **not reflect** in the direct development of the game.
+- **Back-End**
+  - [Node.js](https://nodejs.org/en/)
+  - [Express.js](https://expressjs.com/)
+  - [Nodemon](https://nodemon.io/)
+  - [dotenv](https://www.npmjs.com/package/dotenv)
+  - [nunjucks](https://mozilla.github.io/nunjucks/)
+
+**Note**: Back-end technologies were used to deploy to heroku, they do **not reflect** on the direct development of the application.
 
 ## 💻 Project
 
-Flappy bird clone with pure JavaScript
+Flappy bird clone with pure JavaScript.
 
 ## 🔖 Layout
 
@@ -67,10 +73,21 @@ You can access the game **demo** [here](https://flappy-roger.herokuapp.com/). <b
 
 ## ⬇ Installation
 
-- `git clone https://github.com/roger3g/flappy-bird.git`;
-- `cd flappy-bird`;
-- `npm install `;
-- `npm run dev`.
+```bash
+# Clone this repository
+$ git clone https://github.com/roger3g/flappy-bird.git
+
+# Access the project folder in the cmd/terminal
+$ cd flappy-bird
+
+# Install the dependencies
+$ npm install
+
+# Run the application in development mode
+$ npm run dev
+
+# The port that the server will open will be shown on the console
+```
 
 Requirements to run **locally**:
 
