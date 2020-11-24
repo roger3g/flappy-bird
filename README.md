@@ -39,12 +39,13 @@
 
 ## 💻 Project
 
-Flappy bird clone with pure JavaScript.
+Flappy bird clone with pure JavaScript. <br>
+
+**Note**: The game is in development.
 
 ## 🔖 Layout
 
-You can access the game **demo** [here](https://flappy-roger.herokuapp.com/). <br> <br>
-**Note**: The game is in development.
+You can access the game **demo** [here](https://flappy-roger.herokuapp.com/).
 
 ## 💡 Implementation ideas
 
