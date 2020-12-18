@@ -109,9 +109,7 @@ const createFlapyBird = () => {
     update() {
       if ( makeCollision( FlapyBird , GlobalData.Floor ) ) {
         hitSound.play()
-        setTimeout( () => {
-          switchToScreen( Screens.START )
-        } , 500 )
+        switchToScreen( Screens.GAME_OVER )
         return
       }
 
@@ -171,6 +169,25 @@ const GetReadyMessage = {
       GetReadyMessage.width, GetReadyMessage.height,
       GetReadyMessage.positionX, GetReadyMessage.positionY,
       GetReadyMessage.width, GetReadyMessage.height
+    )
+  }
+}
+
+const GameOverMessage = {
+  spriteX: 134,
+  spriteY: 153,
+  width: 226,
+  height: 200,
+  positionX: ( canvas.width / 2 ) - 226 / 2,
+  positionY: 50,
+
+  draw() {
+    context.drawImage(
+      sprites,
+      GameOverMessage.spriteX, GameOverMessage.spriteY, 
+      GameOverMessage.width, GameOverMessage.height,
+      GameOverMessage.positionX, GameOverMessage.positionY,
+      GameOverMessage.width, GameOverMessage.height
     )
   }
 }
@@ -236,11 +253,10 @@ const createPipes = () => {
     },
 
     hasCollisionWithFlappyBird( pair ) {
-
       const flappyHead = GlobalData.FlapyBird.positionY
       const flappyFoot = GlobalData.FlapyBird.positionY + GlobalData.FlapyBird.height
 
-      if ( GlobalData.FlapyBird.positionX >= pair.x ) {
+      if ( (GlobalData.FlapyBird.positionX + GlobalData.FlapyBird.width) >= pair.x ) {
 
         if ( flappyHead <= pair.pipeSky.y ) {
           return true
@@ -269,8 +285,8 @@ const createPipes = () => {
         pair.x = pair.x -2
 
         if ( Pipes.hasCollisionWithFlappyBird( pair ) ) {
-          console.log( 'Você Perdeu' )
-          switchToScreen( Screens.START )
+          hitSound.play()
+          switchToScreen( Screens.GAME_OVER )
         }
 
         if ( pair.x + Pipes.width <= 0 ) {
@@ -281,6 +297,29 @@ const createPipes = () => {
     }
   }
   return Pipes
+}
+
+const createBoard = () => {
+  const board = {
+    punctuation: 0,
+
+    draw() {
+      context.font = '35px "VT323"'
+      context.textAlign = 'right'
+      context.fillStyle = 'white'
+      context.fillText(board.punctuation, canvas.width - 10, 35)
+    },
+
+    update() {
+      const frameRange = 20
+      const theIntervalHasPassed = frames % frameRange === 0
+      
+      if ( theIntervalHasPassed ) {
+        board.punctuation += 1 
+      }
+    }
+  }
+  return board
 }
 
 const Screens = {
@@ -308,11 +347,15 @@ const Screens = {
   },
 
   GAME: {
+    initializes() {
+      GlobalData.board = createBoard()
+    },
     draw() {
       Background.draw()
       GlobalData.Pipes.draw()
       GlobalData.Floor.draw()
       GlobalData.FlapyBird.draw()
+      GlobalData.board.draw()
     },
 
     click() {
@@ -323,7 +366,21 @@ const Screens = {
       GlobalData.Pipes.update()
       GlobalData.Floor.update()
       GlobalData.FlapyBird.update()
+      GlobalData.board.update()
     }
+  }
+}
+
+Screens.GAME_OVER = {
+  draw() {
+    GameOverMessage.draw()
+
+  },
+
+  update() {},
+
+  click() {
+    switchToScreen( Screens.START )
   }
 }
 

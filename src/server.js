@@ -6,7 +6,8 @@ const path = require( 'path' )
 const express = require( 'express' )
 const app = express()
 
-const PORT = process.env.PORT || 3000
+// const PORT = process.env.PORT || 3000
+const PORT = 8080
 
 nunjucks.configure( path.join( __dirname , '/../public/pages' ) , { 
   express: app,
