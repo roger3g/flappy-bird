@@ -11,3 +11,7 @@ canvas {
   margin-bottom: 0 auto;
   border: 1px solid #000;
 }
+
+h2 {
+  font-family: 'VT323', monospace;
+}

@@ -36,18 +36,18 @@ const Background = {
 
     context.drawImage(
       sprites,
-      Background.spriteX, Background.spriteY, 
-      Background.width, Background.height,
-      Background.positionX, Background.positionY,
-      Background.width, Background.height
+      this.spriteX, this.spriteY, 
+      this.width, this.height,
+      this.positionX, this.positionY,
+      this.width, this.height
     )
 
     context.drawImage(
       sprites,
-      Background.spriteX, Background.spriteY, 
-      Background.width, Background.height,
-      ( Background.positionX + Background.width ), Background.positionY,
-      Background.width, Background.height
+      this.spriteX, this.spriteY, 
+      this.width, this.height,
+      ( this.positionX + this.width ), this.positionY,
+      this.width, this.height
     )
   }
 }
@@ -165,10 +165,10 @@ const GetReadyMessage = {
   draw() {
     context.drawImage(
       sprites,
-      GetReadyMessage.spriteX, GetReadyMessage.spriteY, 
-      GetReadyMessage.width, GetReadyMessage.height,
-      GetReadyMessage.positionX, GetReadyMessage.positionY,
-      GetReadyMessage.width, GetReadyMessage.height
+      this.spriteX, this.spriteY, 
+      this.width, this.height,
+      this.positionX, this.positionY,
+      this.width, this.height
     )
   }
 }
@@ -184,10 +184,10 @@ const GameOverMessage = {
   draw() {
     context.drawImage(
       sprites,
-      GameOverMessage.spriteX, GameOverMessage.spriteY, 
-      GameOverMessage.width, GameOverMessage.height,
-      GameOverMessage.positionX, GameOverMessage.positionY,
-      GameOverMessage.width, GameOverMessage.height
+      this.spriteX, this.spriteY, 
+      this.width, this.height,
+      this.positionX, this.positionY,
+      this.width, this.height
     )
   }
 }
@@ -393,7 +393,7 @@ const renderImages = () => {
   requestAnimationFrame( renderImages )
 }
 
-window.addEventListener( 'click' , () => {
+canvas.addEventListener( 'click' , () => {
   if ( ActiveScreen.click ) {
     ActiveScreen.click()
   }
