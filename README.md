@@ -28,15 +28,6 @@
   - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
   - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/Javascript)
 
-- **Back-End**
-  - [Node.js](https://nodejs.org/en/)
-  - [Express.js](https://expressjs.com/)
-  - [Nodemon](https://nodemon.io/)
-  - [dotenv](https://www.npmjs.com/package/dotenv)
-  - [nunjucks](https://mozilla.github.io/nunjucks/)
-
-**Note**: Back-end technologies were used to deploy to heroku, they do **not reflect** on the direct development of the application.
-
 ## 💻 Project
 
 Flappy bird clone with pure JavaScript. <br>
