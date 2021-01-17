@@ -64,7 +64,7 @@ You can access the game **demo** [here](https://flappy-roger.herokuapp.com/).
 
 ## ⬇ Installation
 
-You will need [Nodejs](https://nodejs.org/en/) and [git](https://git-scm.com/) installed on your machine. Then, you can run the scripts below:
+You will need [git](https://git-scm.com/) installed on your machine. Then, you can run the scripts below:
 
 ```bash
 # Clone this repository
@@ -72,14 +72,6 @@ $ git clone https://github.com/roger3g/flappy-bird.git
 
 # Access the project folder in the cmd/terminal
 $ cd flappy-bird
-
-# Install the dependencies
-$ npm install
-
-# Run the application in development mode
-$ npm run dev
-
-# The port that the server will open will be shown on the console
 ```
 
 ## 🤔 How to contribute
