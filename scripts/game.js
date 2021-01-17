@@ -1,8 +1,8 @@
 const sprites = new Image()
-sprites.src = '/assets/images/sprites.png'
+sprites.src = 'assets/images/sprites.png'
 
 const hitSound = new Audio()
-hitSound.src = '/assets/sound-effects/hit.wav'
+hitSound.src = 'assets/sound-effects/hit.wav'
 
 const canvas = document.querySelector( 'canvas' )
 const context = canvas.getContext( '2d' )
