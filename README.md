@@ -23,10 +23,9 @@
 
 ## 🛠 Technology
 
-- **Front-End**
-  - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-  - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-  - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/Javascript)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/Javascript)
 
 ## 💻 Project
 
