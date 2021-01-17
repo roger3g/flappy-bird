@@ -35,7 +35,7 @@ Flappy bird clone with pure JavaScript. <br>
 
 ## 🔖 Layout
 
-You can access the game **demo** [here](https://flappy-roger.herokuapp.com/).
+You can access the game **demo** [here](https://roger3g.github.io/flappy-bird/).
 
 ## 💡 Implementation ideas
 
