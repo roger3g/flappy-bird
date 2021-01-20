@@ -48,17 +48,11 @@ You can access the game **demo** [here](https://roger3g.github.io/flappy-bird/).
 |-- .github/
 |-- public/
   |-- assets/
-  |-- pages/
   |-- scripts/
   |-- styles/
   |-- index.html
-|-- src/
-  |-- server.js
-|-- .env
 |-- .gitignore
 |-- LICENSE.md
-|-- package.json
-|-- package-lock.json
 |-- README.md
 ```
 
