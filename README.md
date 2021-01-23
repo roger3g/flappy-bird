@@ -23,9 +23,13 @@
 
 ## 🛠 Technology
 
-- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/Javascript)
+- **Front-End**
+  - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+  - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+  - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/Javascript)
+
+- **Back-End**
+  - [Node.js](https://nodejs.org/en/)
 
 ## 💻 Project
 
@@ -35,7 +39,7 @@ Flappy bird clone with pure JavaScript. <br>
 
 ## 🔖 Layout
 
-You can access the game **demo** [here](https://roger3g.github.io/flappy-bird/).
+You can access the game **demo** [here]().
 
 ## 💡 Implementation ideas
 
@@ -48,11 +52,15 @@ You can access the game **demo** [here](https://roger3g.github.io/flappy-bird/).
 |-- .github/
 |-- public/
   |-- assets/
+  |-- pages/
   |-- scripts/
   |-- styles/
   |-- index.html
+|-- src/
+  |-- server.js
 |-- .gitignore
 |-- LICENSE.md
+|-- package.json
 |-- README.md
 ```
 
@@ -66,6 +74,14 @@ $ git clone https://github.com/roger3g/flappy-bird.git
 
 # Access the project folder in the cmd/terminal
 $ cd flappy-bird
+
+# Install the dependencies
+$ npm install
+
+# Run the application in development mode
+$ npm run dev:server
+
+# The port that the server will open will be shown on the console
 ```
 
 ## 🤔 How to contribute
