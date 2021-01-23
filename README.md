@@ -39,7 +39,7 @@ Flappy bird clone with pure JavaScript. <br>
 
 ## 🔖 Layout
 
-You can access the game **demo** [here]().
+You can access the game **demo** [here](https://flappy-roger.herokuapp.com/).
 
 ## 💡 Implementation ideas
 
