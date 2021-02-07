@@ -66,7 +66,7 @@ You can access the game **demo** [here](https://flappy-roger.herokuapp.com/).
 
 ## ⬇ Installation
 
-You will need [git](https://git-scm.com/) installed on your machine. Then, you can run the scripts below:
+You will need [Nodejs](https://nodejs.org/en/) and [git](https://git-scm.com/) installed on your machine. Then, you can run the scripts below:
 
 ```bash
 # Clone this repository
