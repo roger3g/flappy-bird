@@ -10,17 +10,6 @@
   <img src=".github/desktop.svg" alt="Exemplo da interface no desktop" style="width: 100%;">  
 </div>
 
-## 📌 Table of Contents
-
-- [Technology](#-technology)
-- [Project](#-project)
-- [Layout](#-layout)
-- [Implementation ideas](#-implementation-ideas)
-- [Directory structure](#-directory-structure)
-- [Installation](#-installation)
-- [How to contribute](#-how-to-contribute)
-- [License](#-license)
-
 ## 🛠 Technology
 
 - **Front-End**
@@ -33,9 +22,7 @@
 
 ## 💻 Project
 
-Flappy bird clone with pure JavaScript. <br>
-
-**Note**: The game is in development.
+Hated by some and loved by others, flappy bird a game that fun to pass the time. **The game is in development.**
 
 ## 🔖 Layout
 
@@ -43,8 +30,10 @@ You can access the game **demo** [here](https://flappy-roger.herokuapp.com/).
 
 ## 💡 Implementation ideas
 
-- [ ] Refactor.
-- [ ] End the game
+- [ ] End the game;
+- [ ] Making the game as faithful as possible;
+- [ ] Add levels to the game;
+- [ ] Refactor;
 
 ## 📂 Directory structure
 
