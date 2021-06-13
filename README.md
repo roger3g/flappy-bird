@@ -12,13 +12,9 @@
 
 ## 🛠 Technology
 
-- **Front-End**
-  - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-  - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-  - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/Javascript)
-
-- **Back-End**
-  - [Node.js](https://nodejs.org/en/)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/Javascript)
 
 ## 💻 Project
 
@@ -32,7 +28,7 @@ You can access the game **demo** [here](https://flappy-roger.herokuapp.com/).
 
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Safari |
 | --- | --- | --- | --- |
-| IE11, Edge | last 5 versions | last 5 versions | last 5 versions |
+| IE11, Edge | last 10 versions | last 10 versions | last 10 versions |
 
 ## 💡 Implementation ideas
 
@@ -41,27 +37,9 @@ You can access the game **demo** [here](https://flappy-roger.herokuapp.com/).
 - [ ] Add levels to the game;
 - [ ] Refactor;
 
-## 📂 Directory structure
-
-```
-|-- .github/
-|-- public/
-  |-- assets/
-  |-- pages/
-  |-- scripts/
-  |-- styles/
-  |-- index.html
-|-- src/
-  |-- server.js
-|-- .gitignore
-|-- LICENSE.md
-|-- package.json
-|-- README.md
-```
-
 ## ⬇ Installation
 
-You will need [Nodejs](https://nodejs.org/en/) and [git](https://git-scm.com/) installed on your machine. Then, you can run the scripts below:
+You will need [git](https://git-scm.com/) installed on your machine. Then, you can run the scripts below:
 
 ```bash
 # Clone this repository
@@ -69,14 +47,6 @@ $ git clone https://github.com/roger3g/flappy-bird.git
 
 # Access the project folder in the cmd/terminal
 $ cd flappy-bird
-
-# Install the dependencies
-$ npm install
-
-# Run the application in development mode
-$ npm run dev:server
-
-# The port that the server will open will be shown on the console
 ```
 
 ## 🤔 How to contribute
