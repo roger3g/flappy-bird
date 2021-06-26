@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=author&message=roger3g&color=DAA520&labelColor=1C1C1C" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=languages&message=3&color=DAA520&labelColor=1C1C1C" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=DAA520&labelColor=1C1C1C" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=version&message=1.0.0&color=DAA520&labelColor=1C1C1C" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=platform&message=web&color=DAA520&labelColor=1C1C1C" style="display: inline;"> <img src="https://img.shields.io/github/stars/roger3g/flappy-bird?color=DAA520&labelColor=1C1C1C" style="display: inline;"> <img src="https://img.shields.io/github/issues/roger3g/flappy-bird?color=DAA520&labelColor=1C1C1C" style="display: inline;"> <img src="https://img.shields.io/github/forks/roger3g/flappy-bird?color=DAA520&labelColor=1C1C1C" style="display: inline;"> <img src="https://img.shields.io/github/last-commit/roger3g/flappy-bird?color=DAA520&labelColor=1C1C1C" style="display: inline;">
+  <img src="https://img.shields.io/static/v1?label=author&message=abantes&color=DAA520&labelColor=1C1C1C" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=languages&message=3&color=DAA520&labelColor=1C1C1C" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=DAA520&labelColor=1C1C1C" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=version&message=1.0.0&color=DAA520&labelColor=1C1C1C" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=platform&message=web&color=DAA520&labelColor=1C1C1C" style="display: inline;"> <img src="https://img.shields.io/github/stars/abantes/flappy-bird?color=DAA520&labelColor=1C1C1C" style="display: inline;"> <img src="https://img.shields.io/github/issues/abantes/flappy-bird?color=DAA520&labelColor=1C1C1C" style="display: inline;"> <img src="https://img.shields.io/github/forks/abantes/flappy-bird?color=DAA520&labelColor=1C1C1C" style="display: inline;"> <img src="https://img.shields.io/github/last-commit/abantes/flappy-bird?color=DAA520&labelColor=1C1C1C" style="display: inline;">
 </p>
 
 <div align="center">
@@ -43,7 +43,7 @@ You will need [git](https://git-scm.com/) installed on your machine. Then, you c
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/roger3g/flappy-bird.git
+$ git clone https://github.com/abantes/flappy-bird.git
 
 # Access the project folder in the cmd/terminal
 $ cd flappy-bird
@@ -58,7 +58,7 @@ $ cd flappy-bird
 
 After the merge of your pull request is done, you can delete your branch.
 
-You can report a bug [here](https://github.com/roger3g/flappy-bird/issues).
+You can report a bug [here](https://github.com/abantes/flappy-bird/issues).
 
 ## 📝 License
 
