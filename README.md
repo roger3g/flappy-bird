@@ -22,7 +22,7 @@ Hated by some and loved by others, flappy bird a game that fun to pass the time.
 
 ## 🔖 Layout
 
-You can access the game **demo** [here](https://flappy-roger.herokuapp.com/).
+You can access the game **demo** [here](https://abantes.github.io/flappy-bird/).
 
 ## 🖥 Environment Support
 
